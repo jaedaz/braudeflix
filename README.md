@@ -44,6 +44,8 @@ View the most watched genre in a specific year.
 
 View the top user with the highest watch time during the year.
 
-<img src="https://github.com/user-attachments/assets/ca9ae21f-55c8-4b1a-bbdd-411ff6e20586" width="300" height="400">
-<img src="https://github.com/user-attachments/assets/7e4fef79-e276-41ab-85f3-25153d3b9f21" width="300" height="400">
-<img src="https://github.com/user-attachments/assets/db054e38-c014-4520-a5af-7e621df69cdd" width="300" height="400">
+<img src="https://github.com/user-attachments/assets/ca9ae21f-55c8-4b1a-bbdd-411ff6e20586" width="300" >
+<br/>
+<img src="https://github.com/user-attachments/assets/7e4fef79-e276-41ab-85f3-25153d3b9f21" width="300" >
+<br/>
+<img src="https://github.com/user-attachments/assets/db054e38-c014-4520-a5af-7e621df69cdd" width="300" >
