@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; /* تأكيد استخدام نموذج مربع الحدود لجميع العناصر */
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 70vh;
+}
+
+#chatBox {
+    min-height: 200px; /* ارتفاع أدنى لصندوق الدردشة */
+    width: 90%; /* استخدام 90% من عرض الشاشة */
+    max-height: 100vh; /* حدد الارتفاع الأقصى ليتناسب مع حجم الشاشة */
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 100px; /* تحديد المسافة بين الفورم والصندوق */
+}
+
+form#messageForm {
+    width: 90%;
+    margin: 20px auto; /* تحديد هامش من الأعلى والأسفل */
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px; /* تحديد المسافة بين الفورم والنافبار */
+}
+
+form#messageForm select,
+form#messageForm textarea,
+form#messageForm input[type="submit"] {
+    width: 100%; /* استخدام 100% من عرض الفورم */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+}
+
+form#messageForm input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form#messageForm input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#chatData {
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+
+#chatData span {
+    display: block;
+    margin-bottom: 30px;
+}
+
+#chatBox button {
+    width: calc(100% - 700px);
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
